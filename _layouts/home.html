@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	{% include header.html %}
-	  
+
   <script>
   	jQuery( document ).ready( function ($) {
   		var index = 0;
@@ -16,6 +16,7 @@
   </script>
 
   <body>
+
     <div id="primary" class="content-area">
     	<main id="main" class="site-main">
 
@@ -44,9 +45,9 @@
     				  
     				  <div class="card"></div>
     				  <div class="card double-card"></div>
-    				  <div class="card double-card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card double-card"><img src="assets/images/{{ page.images[ 0 ] }}" alt=""></div>
     				  <div class="card light-gray-card"></div>
-    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card"><img src="assets/images/{{ page.images[ 1 ] }}" alt=""></div>
     				  
     				  <div class="card"></div>
     				  <div class="card light-gray-card"></div>
@@ -55,15 +56,15 @@
     				  <div class="card hidden-card"></div>
     				  <div class="card green-card"></div>
     				  <div class="card"></div>
-    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
-    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card"><img src="assets/images/{{ page.images[ 2 ] }}" alt=""></div>
+    				  <div class="card"><img src="assets/images/{{ page.images[ 3 ] }}" alt=""></div>
     				  <div class="card hidden-card"></div>
     				  <div class="card hidden-card"></div>
     				  
     				  <div class="card hidden-card"></div>
     				  <div class="card hidden-card"></div>
     				  <div class="card light-green-card"></div>
-    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card"><img src="assets/images/{{ page.images[ 4 ] }}" alt=""></div>
     				  <div class="card hidden-card"></div>
     				  <div class="card hidden-card"></div>
     				  <div class="card hidden-card"></div>
@@ -72,6 +73,19 @@
     			  <h1 class="homepage-header-title">We Build Websites</h1>
     			</div>
     		</div>
+
+				<section class="homepage-section site-description">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-2"></div>
+							<div class="col-md-8">
+								{{ content }}
+							</div>
+							<div class="col-md-2"></div>
+						</div>
+					</div>
+				</section>
+
     	</main>
     </div>
   </body>
