@@ -1,8 +1,15 @@
+---
+layout: default
+---
+
 <h1>{{ page.title }}</h1>
 {{ content }}
 
-<ul>
-{% for post in site.categories.portfolio %}
-  {% include portfolio-tile.html post=post %}
-{% endfor %}
-</ul>
+<div class="container">
+  <div class="row">
+    {% for post in site.categories.portfolio %}
+      <pre>{{ forloop.index }}</pre>
+      {% include portfolio-tile.html post=post %}
+    {% endfor %}
+  </div>
+</div>
