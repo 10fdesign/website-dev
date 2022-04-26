@@ -4,6 +4,7 @@
 
 title: 10F Design - We Build Websites!
 layout: home
+images: ["grafton.jpg", "stowe.jpg", "tavernier-1.jpg"]
 ---
 
 Hello and welcome to my website.
