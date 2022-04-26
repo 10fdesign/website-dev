@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: 10F Design - We Build Websites!
-layout: default
+layout: home
 ---
 
 Hello and welcome to my website.

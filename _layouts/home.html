@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	{% include header.html %}
+	  
+  <script>
+  	jQuery( document ).ready( function ($) {
+  		var index = 0;
+  		var cards = $('.card:not(.hidden-card)');
+  		for ( let i = 0; i < cards.length; i++ ) {
+  			index += 1;
+  			$(cards[i]).delay( index * 50 ).queue( function () {
+  				$(this).addClass( "card-visible" );
+  			});
+  		}
+  	});
+  </script>
+
+  <body>
+    <div id="primary" class="content-area">
+    	<main id="main" class="site-main">
+
+    		<div class="container">
+    			<div class="homepage-header-grid-wrapper">
+    				<div class="homepage-header-grid">
+    					<div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card hidden-card"></div>
+    				  <div class="card hidden-card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card double-card red-card"></div>
+    				  <div class="card"></div>
+    				  <div class="card hidden-card"></div>
+    				  
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"></div>
+    				  <div class="card light-gray-card"></div>
+    				  
+    				  <div class="card"></div>
+    				  <div class="card double-card"></div>
+    				  <div class="card double-card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card light-gray-card"></div>
+    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  
+    				  <div class="card"></div>
+    				  <div class="card light-gray-card"></div>
+    				  <div class="card hidden-card"></div>
+    				  
+    				  <div class="card hidden-card"></div>
+    				  <div class="card green-card"></div>
+    				  <div class="card"></div>
+    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card hidden-card"></div>
+    				  <div class="card hidden-card"></div>
+    				  
+    				  <div class="card hidden-card"></div>
+    				  <div class="card hidden-card"></div>
+    				  <div class="card light-green-card"></div>
+    				  <div class="card"><img src="assets/images/grafton.jpg" alt=""></div>
+    				  <div class="card hidden-card"></div>
+    				  <div class="card hidden-card"></div>
+    				  <div class="card hidden-card"></div>
+
+    				</div>
+    			  <h1 class="homepage-header-title">We Build Websites</h1>
+    			</div>
+    		</div>
+    	</main>
+    </div>
+  </body>
+</html>
