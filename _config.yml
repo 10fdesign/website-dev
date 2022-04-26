@@ -29,6 +29,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: "/:categories/:title"
+phone: 802-380-6847
+email: connor@10fdesign.io
+address: "186 Elliot Street"
+town: "Brattleboro, VT"
 
 # Build settings
 theme: minima

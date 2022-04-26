@@ -1,3 +1,21 @@
 <footer>
-  &copy; to me
+  <div class="site-info">
+  	
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-12 text-center">
+  				<div class="footer-menu">
+  					<h3>Location</h3>
+  					{{ site.address }} <br>
+  					{{ site.town }}
+  					<h3>Contact Us</h3>
+  					<a href="mailto:{{ config.email }}">{{ site.email }}</a>
+  					<a href="tel:{{ config.phone }}">{{ site.phone }}</a>
+  					<h3>Navigation</h3>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  </div>
 </footer>
