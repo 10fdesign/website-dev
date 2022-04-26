@@ -8,8 +8,7 @@ layout: default
 <div class="container">
   <div class="row">
     {% for post in site.categories.portfolio %}
-      <pre>{{ forloop.index }}</pre>
-      {% include portfolio-tile.html post=post %}
+      {% include portfolio-tile.html post=post index=forloop.index %}
     {% endfor %}
   </div>
 </div>
