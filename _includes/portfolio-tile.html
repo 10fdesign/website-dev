@@ -1,7 +1,9 @@
 <div class="{% if include.index == 1 %}col-md-12{% else %}col-md-6{% endif %} tenf-portfolio-tile">
 	<a class="tenf-portfolio-tile-content" href="{{ post.url }}">
 		<div class="tenf-portfolio-tile-image">
+			{% if post.tile-photo %}{% picture {{ post.tile-photo }} %}{% endif %}
 			{% if post.tile-photo-credit %}<div class="tenf-caption">{{ post.tile-photo-credit }}</div>{% endif %}
+			}
 		</div>
 		<h1>{{ post.title }}</h1>
 		{% if post.subtitle %}<h2>{{ post.subtitle }}</h2>{% endif %}

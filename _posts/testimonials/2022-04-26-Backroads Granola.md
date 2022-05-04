@@ -1,5 +1,4 @@
 ---
-layout: testimonial
 title:  "Backroads Granola"
 date:   2022-04-26 12:16:31 -0400
 categories: testimonials
