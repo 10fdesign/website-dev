@@ -84,22 +84,6 @@ h1, h2, h3, h4 {
   background-position: center center;
 }
 
-.tenf-button {
-	display: inline-block;
-	padding: 0.5em 1em;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	background: #a30234;
-	font-weight: 700;
-	transition: all 0.1s;
-	transition: background 0.2s;
-}
-
-.tenf-button:hover {
-    background: #1c1c1c;
-}
-
 :root {
     --dark-gray: #333333;
     --gray: #CBCBCB;
@@ -198,14 +182,29 @@ h1, h2, h3, h4 {
 
 /* Front Page */
 
-a.tenf-button {
-  background: var(--dark-gray);
+a.tenf-button,
+button[type="submit"] {
   color: white;
   font-weight: normal;
-  text-transform: none;
-  border-color: var(--dark-gray);
+  background-color: var(--red);
+  border-color: var(--red);
   padding: 0.5em 2em;
   align-self: flex-start;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.2s;
+  outline: none;
+  box-shadow: none;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 1rem;
+}
+
+a.tenf-button:hover,
+button[type="submit"]:hover {
+    background: #1c1c1c;
+    border-color: #1c1c1c;
 }
 
 div.tenf-image-square > img {
@@ -238,9 +237,6 @@ div.tenf-image.tenf-image-tall {
 }
 h1, h2, h3 {
 	font-weight: normal;
-}
-.tenf-button {
-	text-align: center;
 }
 .tenf-vertically-centered {
   display: flex;
@@ -339,10 +335,6 @@ section.homepage-section {
 
 .testimonial > i {
   font-size: 4em;
-}
-a.tenf-button {
-	background-color: var(--red);
-	border-color: var(--red);
 }
 
 .testimonial-content {
@@ -581,5 +573,28 @@ a.tenf-portfolio-tile-content:hover {
     text-transform: uppercase;
     font-weight: 600;
     color: #FF6583;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 1em;
+    width: 100%;
+    display: block;
+    padding: 0.5em;
+}
+
+.tenf-checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.tenf-checkbox-container:last-of-type {
+    margin-bottom: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5em;
 }
 
