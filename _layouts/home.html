@@ -74,16 +74,20 @@ layout: default
 			<div class="col-md-12 text-center">
 				<h2>Our Portfolio</h2>
 			</div>
+		</div>
+		<div class="row align-items-stretch mb-3">
 			{% for post in site.categories.portfolio %}
-				<div class="col-md-4">
-					<a href="{{ post.url }}" class="tenf-portfolio-link">
-						<div class="tenf-image">
+				<div class="col-md-4 tenf-portfolio-tile">
+					<a href="{{ post.url }}" class="tenf-portfolio-tile-content">
+						<div class="tenf-portfolio-tile-image">
 							{% picture {{ post.tile-photo }} %}
 						</div>
 						<h4>{{ post.title }}</h4>
 					</a>
 				</div>
 			{% endfor %}
+		</div>
+		<div class="row">
 			<div class="col-md-12 text-center">
 				<a href="/portfolio" class="tenf-button">View All Our Work <i class="icofont-plus"></i></a>
 			</div>
