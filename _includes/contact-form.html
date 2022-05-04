@@ -1,0 +1,40 @@
+<form
+	id="contact-form"
+	action="https://formspree.io/f/mwkywjpg"
+	method="POST">
+
+	<label for="name">Your name (required)</label>
+	<input type="text" name="name" id="name" required>
+
+	<label for="email">Email address (required)</label>
+	<input type="email" name="email" id="email" required>
+
+	<label for="phone">Phone number</label>
+	<input type="text" name="phone" id="phone">
+
+	<h4>What best describes you?</h4>
+	<div class="tenf-checkbox-container">
+		<input type="checkbox" name="new_website" id="new_website">
+		<label for="new_website">I'm looking for a new website</label>
+	</div>
+	<div class="tenf-checkbox-container">
+		<input type="checkbox" name="manage" id="manage">
+		<label for="manage">I need someone to manage my existing website for me</label>
+	</div>
+	<div class="tenf-checkbox-container">
+		<input type="checkbox" name="agency" id="agency">
+		<label for="agency">I'm an agency looking for a partnership</label>
+	</div>
+	<div class="tenf-checkbox-container">
+		<input type="checkbox" name="other" id="other">
+		<label for="other">Something else</label>
+	</div>
+
+	<label for="budget">What's your budget</label>
+	<input type="text" name="budget" id="budget">
+
+	<label for="message">Anything else we should know?</label>
+	<textarea rows="8" name="message" id="message"></textarea>
+
+	<button type="submit">Send</button>		
+</form>
