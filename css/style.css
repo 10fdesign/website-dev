@@ -135,6 +135,7 @@ nav {
   z-index: 12;
   width: 100%;
   top: 0;
+  padding: 0.5rem 0;
 }
 
 .menu-items {
@@ -184,21 +185,21 @@ label.menu-toggle:hover, label.menu-toggle:active, label.menu-toggle:focus {
 body.scrolled > nav {
   background: white;
   margin: 0;
-  padding: 1em 0;
+  padding: 0.5rem 0;
   box-shadow: 0 0px 15px rgba(0,0,0,0.2);
 }
 
-.logo > svg {
-  height: 6em;
+.logo svg {
+  height: 4em;
   transition: height 0.2s;
 }
 
-body.scrolled .logo > svg {
-  height: 4em;
+body.scrolled .logo svg {
+  height: 3em;
 }
 
 body.scrolled .menu label.menu-toggle {
-  height: 4rem;
+  height: 3rem;
 }
 
 
@@ -224,7 +225,7 @@ body.scrolled .menu label.menu-toggle {
   width: 120px;
 }
 
-#masthead .site-branding a .logo-overlay {
+#header .logo-overlay {
   position: absolute;
   top: var(--logo-border-size);
   left: var(--logo-border-size);
@@ -239,11 +240,11 @@ body.scrolled .menu label.menu-toggle {
   transition: clip-path var(--logo-animation-duration) ease-in;
 }
 
-#masthead .site-branding svg {
+#header svg {
   z-index: 4;
 }
 
-#masthead .site-branding .logo-overlay svg {
+#header .logo-overlay svg {
   position: absolute;
   max-width: unset;
   top: -4px;
@@ -252,26 +253,26 @@ body.scrolled .menu label.menu-toggle {
   z-index: 10;
 }
 
-#masthead .site-branding a:hover .logo-overlay {
+#header a.logo:hover .logo-overlay {
   top: var(--logo-border-size);
   left: var(--logo-border-size);
   clip-path: circle(68%);
   transition: clip-path var(--logo-animation-duration) ease-out;
 }
 
-#masthead .site-branding .logo-overlay svg #logo_1,
-#masthead .site-branding .logo-overlay svg #logo_0 path {
+#header .logo-overlay svg #logo_1,
+#header .logo-overlay svg #logo_0 path {
   fill: var(--logo-color);
 }
 
-#masthead .site-branding .logo-overlay svg #logo_F path {
+#header .logo-overlay svg #logo_F path {
   fill: white;
   stroke: #404040;
   stroke-width: 2;
   background: linear-gradient(45deg, blue, red);
 }
 
-#masthead .site-branding .logo-bg {
+#header .logo-bg {
   position: absolute;
   background-color: var(--logo-color);
   width: 100%;
@@ -280,6 +281,7 @@ body.scrolled .menu label.menu-toggle {
   left: 0;
   z-index:-2;
   border-radius: 1rem;
+  transition: border-radius 200ms;
 }
 
 /* Front Page */
@@ -858,8 +860,41 @@ footer .diamond {
 }
 
 main {
-  margin-top: 96px;
+  margin-top: 80px;
 }
 .home main {
     margin-top: 0;
 }
+a.logo {
+    position: relative;
+    display: inline-block;
+}
+.scrolled #header .logo-bg {
+  border-radius: 0.75rem;
+}
+.scrolled #header .logo-overlay {
+  border-radius: calc(0.75rem - var(--logo-border-size));
+}
+
+.container-404 {
+    position: relative;
+}
+
+.content-404 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+    z-index: 10;
+    color: white;
+}
+
+.content-404 > * {
+    margin-bottom: 0.5rem;
+}
+
+.content-404 > *:last-child {
+    margin-bottom: 0;
+}
+
+

@@ -2,9 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
-				<a href="/" class="logo">
-					{% include logo.html %}
-				</a>
+				{% include logo.html %}
 			</div>
 			<div class="col-6">
 				<label for="menu-toggle" class="menu-toggle">
@@ -31,14 +29,3 @@
 		</div>
 	</div>	
 </nav>
-<script>
-	$(document).ready( function () {
-		$(window).scroll( function (e) {
-			if ( $(this).scrollTop() > 16 ) {
-				$("body").addClass("scrolled");
-			} else {
-				$("body").removeClass("scrolled");
-			}
-		});
-	});
-</script>

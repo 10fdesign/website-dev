@@ -35,4 +35,16 @@
     <div class="diamond diamond-3"></div>
     <div class="diamond diamond-4"></div>
   </div>
+
+  <script>
+    $(document).ready( function () {
+      $(window).scroll( function (e) {
+        if ( $(this).scrollTop() > 16 ) {
+          $("body").addClass("scrolled");
+        } else {
+          $("body").removeClass("scrolled");
+        }
+      });
+    });
+  </script>
 </footer>
