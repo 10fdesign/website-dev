@@ -459,9 +459,9 @@ section.homepage-section.homepage-section-hero {
   display: flex;
   flex-direction: column;
   font-family: 'EB Garamond';
-  font-size: 3em;
+  font-size: 1.5em;
   justify-content: center;
-  line-height: 1.2em;
+  line-height: 1.1em;
 }
 
 .testimonials {
@@ -498,12 +498,12 @@ section.homepage-section.homepage-section-hero {
 
 .testimonial-author {
   line-height: 0.4em;
-  margin-top: 0.2em;
+  margin-top: 0em;
 }
 
 .testimonial-author a {
   font-family: 'Kanit';
-  font-size: 0.4em;
+  font-size: 0.7em;
   text-decoration: none;
   color: inherit;
   opacity: 0.4;
@@ -525,6 +525,37 @@ section.homepage-section.homepage-section-hero {
   display: flex;
   align-items: center;
 }
+.testimonials .slick-track {
+	display: flex;
+	align-items: center;
+}
+.slick-arrow:before {
+  font-family: 'IcoFont';
+  font-size: 3rem;
+}
+
+.slick-next:before {
+  content: '';
+}
+
+.slick-prev:before {
+  content: '';
+}
+
+.slick-arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+
 section.homepage-section {
   margin: 2em 0 6em 0;
   letter-spacing: 1px;
