@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+
+	.homepage-header-grid-wrapper {
+	  height: 0;
+	  padding-bottom: 80%;
+	}
+
+	.tenf-portfolio-tile {
+	  margin-bottom: 1em;
+	}
+
+	.diamond {
+	  height: 20%;
+	}
+
+	.diamonds {
+	  justify-content: space-evenly;
+	}
+
+	.testimonial {
+	  font-size: 0.7em;
+	}
+
+	.testimonial-content > p {
+	  margin-bottom: 0;
+	}
+
+	.testimonial-author {
+	  margin: 0;
+	}
+
+	h1.homepage-header-title {
+	  top: calc(50% + 2rem);
+	}
+
+	.homepage-header-grid {
+	  grid-gap: 0.5em;
+	}
+
+	.homepage-section.portfolio .tenf-portfolio-tile .tenf-portfolio-tile-image {
+	  padding-bottom: 50%;
+	}
+
+}
