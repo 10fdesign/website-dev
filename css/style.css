@@ -533,6 +533,49 @@ section.homepage-section {
   font-size: 1.2em;
 }
 
+h3.post-title {
+  font-family: 'Kanit';
+  font-size: 2.5em;
+  letter-spacing: -1px;
+  line-height: 1em;
+}
+
+h4.post-author {
+  font-family: 'Kanit';
+  text-transform: uppercase;
+  color: var(--red);
+  font-weight: normal;
+  font-size: 1.5em;
+  letter-spacing: -1px;
+}
+
+h4.post-author:before {
+  content: 'by';
+  text-transform: none;
+}
+
+.post-content {
+  font-family: 'EB Garamond';
+}
+
+section.homepage-section.homepage-section-blog {
+  margin: 6em 0;
+}
+
+.post-preview-image {
+  height: 100%;
+}
+
+.post-preview-image > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+a.tenf-button {
+  padding: 0.5em 4em;
+}
+
+
 /* Page */
 
 header.tenf-page-header h1 {
