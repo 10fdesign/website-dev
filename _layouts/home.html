@@ -119,15 +119,21 @@ layout: default
 			<div class="row">
 				<div class="col-md-3"></div>
 				<div class="col-md-6">
-					{% assign testimonial = site.categories.testimonials.last %}
-					<div class="testimonial">
-						<i class="icofont-quote-left"></i>
-						<div class="testimonial-content">
-							{{ testimonial.content }}
-							<div class="testimonial-author">
-								<a href="<?= $testimonial_link ?>" target="_blank"><strong>{{ testimonial.author }}</strong>, {{ testimonial.author_institution }}</a>
+					<div class="testimonials-slider">						
+						{% for testimonial in site.categories.testimonials %}
+						<div class="testimonial-slide">
+							<div class="testimonial">
+								<i class="icofont-quote-left"></i>
+								<div class="testimonial-content">
+									{{ testimonial.content }}
+									<div class="testimonial-author">
+										<a href="<?= $testimonial_link ?>" target="_blank"><strong>{{ testimonial.author }}</strong>, {{ testimonial.author_institution }}</a>
+									</div>
+								</div>
 							</div>
 						</div>
+
+						{% endfor %}
 					</div>
 				</div>
 				<div class="col-md-3"></div>
@@ -162,5 +168,7 @@ layout: default
 				last_time = new_time;
 			});
 		}
+		$(".testimonials-slider").slick({
+		});
 	});
 </script>
