@@ -5,27 +5,28 @@ layout: default
 <div class="container">
 	<div class="homepage-header-grid-wrapper">
 		<div class="homepage-header-grid">
-			<div class="card"></div>
-		  <div class="card"></div>
-		  <div class="card"></div>
-		  <div class="card"></div>
-		  <div class="card"></div>
+			<div class="card hidden-card"></div>
+		  <div class="card hidden-card"></div>
 		  <div class="card hidden-card"></div>
 		  <div class="card hidden-card"></div>
 		  <div class="card"></div>
-		  <div class="card"></div>
-		  <div class="card"></div>
+		  <div class="card hidden-card"></div>
+		  <div class="card hidden-card"></div>
+
+		  <div class="card hidden-card"></div>
+		  <div class="card hidden-card"></div>
+		  <div class="card hidden-card"></div>
 		  <div class="card double-card red-card"></div>
 		  <div class="card"></div>
 		  <div class="card hidden-card"></div>
 		  
-		  <div class="card"></div>
-		  <div class="card"></div>
+		  <div class="card hidden-card"></div>
+		  <div class="card hidden-card"></div>
 		  <div class="card"></div>
 		  <div class="card"></div>
 		  <div class="card light-gray-card"></div>
 		  
-		  <div class="card"></div>
+		  <div class="card hidden-card"></div>
 		  <div class="card double-card"></div>
 		  <div class="card double-card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
 		  <div class="card light-gray-card"></div>
@@ -144,11 +145,14 @@ layout: default
 <script>
 	$( document ).ready( function ($) {
 		var index = 0;
+		var last_time = new Date();
 		var cards = $('.card:not(.hidden-card)');
 		for ( let i = 0; i < cards.length; i++ ) {
 			index += 1;
-			$(cards[i]).delay( index * 50 ).queue( function () {
+			$(cards[i]).delay( index * 150 ).queue( function () {
 				$(this).addClass( "card-visible" );
+				var new_time = new Date();
+				last_time = new_time;
 			});
 		}
 	});

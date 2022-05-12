@@ -6,4 +6,4 @@ title: Contact Us
 layout: contact
 ---
 
-What up! We're just three cool guys.
+What up! We're just ~~three~~ ~~four~~ some cool guys.
