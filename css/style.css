@@ -99,8 +99,90 @@ h1, h2, h3, h4 {
 	flex-grow: 1;
 }
 
-/* Logo nonsense */
+/* Nav Menu */
 
+.menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: var(--light-gray);
+  top: 0;
+  left: 0;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+#menu-toggle:checked + .menu {
+	pointer-events: all;
+	opacity: 1;
+}
+
+.menu-toggle {
+	display: block;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 40px;
+  color: var(--dark-gray);
+}
+
+nav {
+  margin-top: 1em;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.control-checkbox {
+	display: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: var(--dark-gray);
+  margin: 0.2em 0;
+}
+
+.menu-items a:hover, .menu-items a:focus, .menu-items a:active {
+  opacity: 0.6;
+}
+
+.menu .menu-toggle {
+  height: 124px;
+  z-index: 11;
+  position: relative;
+}
+
+.menu > .container {
+  margin-top: 1em;
+  position: relative;
+}
+
+label.menu-toggle {
+  cursor: pointer;
+}
+
+label.menu-toggle:hover, label.menu-toggle:active, label.menu-toggle:focus {
+  opacity: 0.5;
+}
+
+
+/* Logo nonsense */
 
 :root {
   --logo-animation-duration: 0.6s;
@@ -253,7 +335,7 @@ h1, h2, h3 {
 .homepage-header-grid-wrapper {
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 }
 
 h1.homepage-header-title {
@@ -601,4 +683,3 @@ textarea {
 input[type="checkbox"] {
     margin-right: 0.5em;
 }
-
