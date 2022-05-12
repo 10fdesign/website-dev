@@ -287,6 +287,10 @@ h1.homepage-header-title {
 	opacity: 0;
 	transition: opacity 1.0s;
   transition-timing-function: ease-out;	
+  display: block;
+  border: none;
+  border-radius: 0;
+  height: 0;
 }
 .homepage-header-grid .card-visible {
 	opacity: 0.3;
