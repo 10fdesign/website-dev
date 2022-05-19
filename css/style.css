@@ -557,6 +557,10 @@ section.homepage-section.homepage-section-hero {
   right: -50px;
 }
 
+.slick-loading .slick-list
+{
+  background: none;
+}
 
 section.homepage-section {
   margin: 2em 0 6em 0;
