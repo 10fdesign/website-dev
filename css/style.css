@@ -568,7 +568,7 @@ section.homepage-section {
   font-size: 1.2em;
 }
 
-h3.post-title {
+h1.post-title {
   font-family: 'Kanit';
   font-size: 2.5em;
   letter-spacing: -1px;
@@ -577,16 +577,10 @@ h3.post-title {
 
 h4.post-author {
   font-family: 'Kanit';
-  text-transform: uppercase;
   color: var(--red);
   font-weight: normal;
   font-size: 1.5em;
   letter-spacing: -1px;
-}
-
-h4.post-author:before {
-  content: 'by';
-  text-transform: none;
 }
 
 .post-content {
@@ -901,4 +895,34 @@ a.logo {
     margin-bottom: 0;
 }
 
+p {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.4;
+    color: black;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.testimonial-content p {
+    line-height: inherit;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.blog-header {
+    background: var(--green);
+    color: white;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.blog-header p {
+    color: white;
+}
+
+.blog-header .container .row > *:last-child {
+    margin-bottom: 0;
+}
 
