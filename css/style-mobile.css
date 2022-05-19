@@ -1,8 +1,23 @@
 @media only screen and (max-width: 768px) {
 
 	.homepage-header-grid-wrapper {
-	  height: 0;
-	  padding-bottom: 80%;
+	  height: 100%;
+	  /*padding-bottom: 80%;*/
+	}
+	.homepage-header-grid {
+	  width: 150%;
+	  left: -25%;
+	  top: 15%;
+	  transform: translateX(1%) translateY(-35%) rotate(45deg);
+	}
+
+	.homepage-hero-section-wrapper {
+	  height: 70vh;
+	  position: relative;
+	}
+
+	.homepage-hero-section-wrapper > section.homepage-section > .container, .homepage-hero-section-wrapper > section.homepage-section > .container > .homepage-header-grid-wrapper {
+	  height: 100%;
 	}
 
 	.tenf-portfolio-tile {
@@ -39,6 +54,22 @@
 
 	.homepage-section.portfolio .tenf-portfolio-tile .tenf-portfolio-tile-image {
 	  padding-bottom: 50%;
+	}
+
+	.diamond {
+	  pointer-events: none;
+	}
+
+	.diamonds {
+	  pointer-events: none;
+	}
+
+	.testimonials-slider {
+	  margin: 0 4em;
+	}
+
+	.testimonial-content p {
+	  margin: 1em 0;
 	}
 
 }
