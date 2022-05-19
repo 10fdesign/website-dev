@@ -4,8 +4,8 @@
 			<div class="col-6">
 				{% include logo.html %}
 			</div>
-			<div class="col-6">
-				<label for="menu-toggle" class="menu-toggle">
+			<div class="col-6 d-flex justify-content-end">
+				<label for="menu-toggle" class="menu-toggle menu-toggle-open">
 					<i class="icofont-navigation-menu"></i>
 				</label>
 			</div>
@@ -15,8 +15,11 @@
 	<div class="menu">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 text-right">
-					<label for="menu-toggle" class="menu-toggle">
+				<div class="col-6">
+					{% include logo.html %}
+				</div>
+				<div class="col-6 d-flex justify-content-end">
+					<label for="menu-toggle" class="menu-toggle menu-toggle-close">
 						<i class="icofont-close"></i>
 					</label>
 				</div>
