@@ -2,62 +2,64 @@
 layout: default
 ---
 
-<section class="homepage-section homepage-section-hero">
-	<div class="container">
-		<div class="homepage-header-grid-wrapper">
-			<div class="homepage-header-grid">
-				<div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
+<div class="homepage-hero-section-wrapper">	
+	<section class="homepage-section homepage-section-hero">
+		<div class="container">
+			<div class="homepage-header-grid-wrapper">
+				<div class="homepage-header-grid">
+					<div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
 
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card double-card red-card"></div>
-			  <div class="card"></div>
-			  <div class="card hidden-card"></div>
-			  
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card"></div>
-			  <div class="card"></div>
-			  <div class="card light-gray-card"></div>
-			  
-			  <div class="card hidden-card"></div>
-			  <div class="card double-card"></div>
-			  <div class="card double-card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
-			  <div class="card light-gray-card"></div>
-			  <div class="card"><img src="{% picture {{ page.images[ 1 ] }} %}" alt=""></div>
-			  
-			  <div class="card"></div>
-			  <div class="card light-gray-card"></div>
-			  <div class="card hidden-card"></div>
-			  
-			  <div class="card hidden-card"></div>
-			  <div class="card green-card"></div>
-			  <div class="card"></div>
-			  <div class="card"><img src="{% picture {{ page.images[ 2 ] }} %}" alt=""></div>
-			  <div class="card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card light-green-card"></div>
-			  <div class="card"><img src="{% picture {{ page.images[ 1 ] }} %}" alt=""></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
-			  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card double-card red-card"></div>
+				  <div class="card"></div>
+				  <div class="card hidden-card"></div>
+				  
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card"></div>
+				  <div class="card"></div>
+				  <div class="card light-gray-card"></div>
+				  
+				  <div class="card hidden-card"></div>
+				  <div class="card double-card"></div>
+				  <div class="card double-card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
+				  <div class="card light-gray-card"></div>
+				  <div class="card"><img src="{% picture {{ page.images[ 1 ] }} %}" alt=""></div>
+				  
+				  <div class="card"></div>
+				  <div class="card light-gray-card"></div>
+				  <div class="card hidden-card"></div>
+				  
+				  <div class="card hidden-card"></div>
+				  <div class="card green-card"></div>
+				  <div class="card"></div>
+				  <div class="card"><img src="{% picture {{ page.images[ 2 ] }} %}" alt=""></div>
+				  <div class="card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card light-green-card"></div>
+				  <div class="card"><img src="{% picture {{ page.images[ 1 ] }} %}" alt=""></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
+				  <div class="card hidden-card"></div>
 
+				</div>
+			  <h1 class="homepage-header-title">We Build Websites</h1>
 			</div>
-		  <h1 class="homepage-header-title">We Build Websites</h1>
 		</div>
-	</div>
-</section>
+	</section>
+</div>	
 
 <section class="homepage-section site-description">
 	<div class="container">
@@ -127,7 +129,7 @@ layout: default
 								<div class="testimonial-content">
 									{{ testimonial.content }}
 									<div class="testimonial-author">
-										<a href="<?= $testimonial_link ?>" target="_blank"><strong>{{ testimonial.author }}</strong>, {{ testimonial.author_institution }}</a>
+										<a href="{{ testimonial.link }}" target="_blank"><strong>{{ testimonial.author }}</strong>, {{ testimonial.author_institution }}</a>
 									</div>
 								</div>
 							</div>
@@ -169,6 +171,8 @@ layout: default
 			});
 		}
 		$(".testimonials-slider").slick({
+			fade: true,
+			dots: true
 		});
 	});
 </script>

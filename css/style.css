@@ -448,6 +448,17 @@ section.homepage-section.homepage-section-hero {
   margin-bottom: 0.3em;
   font-size: 2em;
 }
+.homepage-hero-section-wrapper > section.homepage-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-hero-section-wrapper {
+  height: 80vh;
+}
 
 .testimonial {
   display: flex;
@@ -455,6 +466,7 @@ section.homepage-section.homepage-section-hero {
 
 .testimonial > i {
   font-size: 4em;
+  margin-right: 1rem;
 }
 
 .testimonial-content {
@@ -498,9 +510,11 @@ section.homepage-section.homepage-section-hero {
   transform: translateX(50%) rotate(45deg);
 }
 
+
 .testimonial-author {
-  line-height: 0.4em;
-  margin-top: 0em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  line-height: 0.7em;
 }
 
 .testimonial-author a {
@@ -533,7 +547,7 @@ section.homepage-section.homepage-section-hero {
 }
 .slick-arrow:before {
   font-family: 'IcoFont';
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .slick-next:before {
@@ -545,17 +559,32 @@ section.homepage-section.homepage-section-hero {
 }
 
 .slick-arrow {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
 }
 
 .slick-prev {
-  left: -50px;
+  left: -5rem;
 }
 
 .slick-next {
-  right: -50px;
+  right: -5rem;
 }
+
+.slick-dots li button:before {
+  width: 1rem;
+  height: 1rem;
+  background: white;
+  content: '';
+  transform: translateX(-50%) rotate(45deg);
+  left: 50%;
+}
+
+.slick-dots li {
+  width: 1rem;
+  height: 1rem;
+}
+
 
 .slick-loading .slick-list
 {
@@ -569,17 +598,26 @@ section.homepage-section {
 }
 
 h1.post-title {
+  font-size: 6em;
+  line-height: 0.9em;  
+}
+h2.post-subtitle {
+	font-weight: bold;
+	margin-bottom: 1em;
+	font-family: 'Kanit', sans-serif;
+	color: var(--green);
+}
+
+h2.post-title {
   font-family: 'Kanit';
-  font-size: 2.5em;
   letter-spacing: -1px;
   line-height: 1em;
 }
 
-h4.post-author {
+h5.post-author {
   font-family: 'Kanit';
   color: var(--red);
   font-weight: normal;
-  font-size: 1.5em;
   letter-spacing: -1px;
 }
 
@@ -589,6 +627,12 @@ h4.post-author {
 
 section.homepage-section.homepage-section-blog {
   margin: 6em 0;
+}
+
+.homepage-section-blog .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .post-preview-image {
@@ -673,6 +717,8 @@ footer {
 
 .footer-menu {
   color: #848484;
+  z-index: 10;
+  position: relative;
 }
 
 footer a {
@@ -859,6 +905,7 @@ footer .diamond {
 
 main {
   margin-top: 80px;
+  margin-bottom: 2em;
 }
 .home main {
     margin-top: 0;
