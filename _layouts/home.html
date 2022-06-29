@@ -42,14 +42,14 @@ layout: default
 				  <div class="card green-card"></div>
 				  <div class="card"></div>
 				  <div class="card"><img src="{% picture {{ page.images[ 2 ] }} %}" alt=""></div>
-				  <div class="card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
+				  <div class="card"><img src="{% picture {{ page.images[ 3 ] }} %}" alt=""></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card light-green-card"></div>
-				  <div class="card"><img src="{% picture {{ page.images[ 1 ] }} %}" alt=""></div>
+				  <div class="card"><img src="{% picture {{ page.images[ 4 ] }} %}" alt=""></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
@@ -81,7 +81,7 @@ layout: default
 			</div>
 		</div>
 		<div class="row align-items-stretch mb-3">
-			{% for post in site.categories.portfolio %}
+			{% for post in site.categories.portfolio limit:3 %}
 				<div class="col-md-4 tenf-portfolio-tile">
 					<a href="{{ post.url }}" class="tenf-portfolio-tile-content">
 						<div class="tenf-portfolio-tile-image">
@@ -119,8 +119,8 @@ layout: default
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-6">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
 					<div class="testimonials-slider">						
 						{% for testimonial in site.categories.testimonials %}
 						<div class="testimonial-slide">

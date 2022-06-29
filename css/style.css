@@ -1023,10 +1023,31 @@ body.scrolled .menu .logo {
 }
 
 .menu-toggle:hover {
-    color: var(--red);
+  color: var(--red);
 }
 
 .homepage-section:not(:first-child) {
-    z-index: 10;
-    position: relative;
+  z-index: 10;
+  position: relative;
+}
+
+.testimonial-author {
+  margin-left: 2em;
+  position: relative;
+}
+
+.testimonial-author:before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1px);
+  left: -2em;
+  width: 1em;
+  border-bottom: 4px solid white;
+  margin: 0 0.5em;
+  opacity: 0.5;
+}
+
+.testimonial-content p {
+	line-height: normal;
+	font-size:  1.2em;
 }
