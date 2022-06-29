@@ -30,14 +30,16 @@
 
 	.diamonds {
 	  justify-content: space-evenly;
+	  opacity: 0.5;
 	}
 
 	.testimonial {
 	  font-size: 0.7em;
+	  flex-direction: column;
 	}
 
 	.testimonial-content > p {
-	  margin-bottom: 0;
+	  margin: 0 0 1em 0;
 	}
 
 	.testimonial-author {
@@ -56,20 +58,11 @@
 	  padding-bottom: 50%;
 	}
 
-	.diamond {
-	  pointer-events: none;
-	}
-
-	.diamonds {
-	  pointer-events: none;
-	}
-
-	.testimonials-slider {
-	  margin: 0 4em;
-	}
-
-	.testimonial-content p {
-	  margin: 1em 0;
+	h1.post-title {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 	}
 
 }
