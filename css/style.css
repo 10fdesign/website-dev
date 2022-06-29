@@ -102,6 +102,7 @@ h1, h2, h3, h4 {
 /* Nav Menu */
 
 .menu {
+  z-index: 20;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -120,18 +121,21 @@ h1, h2, h3, h4 {
 }
 
 .menu-toggle {
-	display: block;
-  height: 100%;
+  transition: color 200ms;
   text-align: right;
+  pointer-events: all;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   font-size: 2.5rem;
   color: var(--dark-gray);
+  z-index: 20;
+  cursor: pointer;
 }
 
 nav {
   position: fixed;
+  pointer-events: none;
   z-index: 12;
   width: 100%;
   top: 0;
@@ -163,10 +167,11 @@ nav {
   opacity: 0.6;
 }
 
-.menu .menu-toggle {
+.menu label.menu-toggle {
   height: 2.5rem;
   z-index: 12;
   position: relative;
+  cursor: pointer;
 }
 
 .menu > .container {
@@ -178,11 +183,7 @@ body.scrolled .menu > .container {
   margin-top: 0.5rem;
 }
 
-label.menu-toggle {
-  cursor: pointer;
-}
-
-label.menu-toggle:hover, label.menu-toggle:active, label.menu-toggle:focus {
+label.menu-toggle:active, label.menu-toggle:focus {
   opacity: 0.5;
 }
 
@@ -373,6 +374,8 @@ h1.homepage-header-title {
 	font-weight: normal;
 	color: var(--dark-gray);
 	font-size: 5em;
+  z-index: 10;
+  pointer-events: none;
 }
 .homepage-header-grid {
   width:100%;
@@ -381,10 +384,9 @@ h1.homepage-header-title {
   grid-template-columns: repeat(7, 14% );
   justify-content:space-evenly;
   align-content: space-evenly;
-  background-color: #fff;
   transform: translateY(-35%) rotate(45deg);
   position: absolute;
-  z-index: -1;
+  z-index: 5;
 }
 
 .homepage-header-grid .card {
@@ -392,12 +394,16 @@ h1.homepage-header-title {
   padding-bottom: 100%;
   position: relative;
 	opacity: 0;
-	transition: opacity 1.0s;
+	transition: all 1.0s;
   transition-timing-function: ease-out;	
   display: block;
   border: none;
   border-radius: 0;
   height: 0;
+}
+.homepage-header-grid .card:not(.hidden-card):hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 .homepage-header-grid .card-visible {
 	opacity: 0.3;
@@ -428,7 +434,6 @@ h1.homepage-header-title {
 }
 
 .homepage-header-grid .hidden-card {
-  background-color: transparent;
 }
 section.homepage-section {
   margin: 8em 0;
@@ -917,6 +922,9 @@ a.logo {
     position: relative;
     display: inline-block;
 }
+.simple-header a.logo {
+    pointer-events: all;
+}
 .scrolled #header .logo-bg {
   border-radius: 0.75rem;
 }
@@ -982,5 +990,9 @@ p {
 
 body.scrolled .menu .logo {
     margin-top: 0;
+}
+
+.menu-toggle:hover {
+    color: var(--red);
 }
 
