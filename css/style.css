@@ -1013,7 +1013,7 @@ body.scrolled .menu .logo {
 .tenf-portfolio-screenshot {
   width: 100%;
   padding-bottom: 50%;
-  background-size: 100% auto;
+  background-size: cover;
   margin: 3em 0;
   background-repeat: no-repeat;
   box-shadow: 2px 2px 15px rgb(0 0 0 / 15%), 0 0 30px rgb(0 0 0 / 5%);
