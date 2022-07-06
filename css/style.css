@@ -69,6 +69,7 @@ html {
  */
 
 body {
+  font-size: 16px;
 	margin: 0;
 	font-family: var(--sans-serif), sans-serif;
 }
@@ -608,14 +609,16 @@ section.homepage-section {
 }
 
 h1.post-title {
-  font-size: 6em;
+  font-size: 4em;
   line-height: 0.9em;  
 }
-h2.post-subtitle {
+.post h2.post-subtitle {
 	font-weight: bold;
 	margin-bottom: 1em;
 	font-family: var(--sans-serif), sans-serif;
 	color: var(--green);
+  font-size: 1.5em;
+  margin-right: 0;
 }
 
 h2.post-title {
@@ -658,6 +661,12 @@ a.tenf-button {
   padding: 0.5em 4em;
   display: inline-flex;
   align-items: center;
+}
+
+a.tenf-button.tenf-button-secondary {
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  border-color: var(--light-gray);
 }
 
 
@@ -965,7 +974,7 @@ p {
     line-height: 1.4;
     color: black;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .testimonial-content p {
@@ -1005,24 +1014,37 @@ body.scrolled .menu .logo {
   background-size: 100% auto;
   margin: 3em 0;
   background-repeat: no-repeat;
+  box-shadow: 2px 2px 15px rgb(0 0 0 / 15%), 0 0 30px rgb(0 0 0 / 5%);
 }
 
 .post ul {
   margin-left: 2em;
-  font-family: 'EB Garamond', serif;
-  font-size: 1.25rem;
+  font-family: var(--serif), serif;
+  font-size: 1rem;
 }
 
 .portfolio-link {
+  align-items: flex-start;
 	display: flex;
+  margin-bottom: 2em;
 }
 
-.portfolio-link > a {
+a.post-link {
   padding: 0.3em 1.6em;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 5px;
   white-space: nowrap;
+}
+
+a.post-link {
+    color: var(--gray);
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+a.post-link:hover {
+    color: var(--dark-gray);
 }
 
 .menu-toggle:hover {
