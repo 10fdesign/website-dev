@@ -1,3 +1,20 @@
+@media only screen and (max-width:  1200px) {
+	.homepage-header-grid {
+		width: 140%;
+		left: -20%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.testimonial {
+		font-size: 1rem;
+	}
+	.homepage-header-grid {
+		width: 180%;
+		left: -40%;
+	}	
+}
+
 @media only screen and (max-width: 768px) {
 
 	.homepage-header-grid-wrapper {
@@ -5,10 +22,9 @@
 	  /*padding-bottom: 80%;*/
 	}
 	.homepage-header-grid {
-	  width: 150%;
-	  left: -25%;
-	  top: 15%;
-	  transform: translateX(1%) translateY(-35%) rotate(45deg);
+		width: 240%;
+		left: -70%;
+		top: -10%;
 	}
 
 	.homepage-hero-section-wrapper {
@@ -34,7 +50,7 @@
 	}
 
 	.testimonial {
-	  font-size: 0.7em;
+		font-size: 0.8rem;
 	  flex-direction: column;
 	}
 
@@ -65,4 +81,11 @@
     margin-bottom: 0.5em;
 	}
 
+}
+
+@media only screen and (max-width: 576px) {
+	.homepage-header-grid {
+    width: calc(1152px);
+    left: calc(50% - 576px);
+	}
 }

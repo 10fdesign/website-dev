@@ -480,6 +480,7 @@ section.homepage-section.homepage-section-hero {
 .testimonial > i {
   font-size: 4em;
   margin-right: 1rem;
+  height: 4rem;
 }
 
 .testimonial-content {
