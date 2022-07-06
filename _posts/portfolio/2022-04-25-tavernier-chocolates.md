@@ -17,13 +17,15 @@ Tavernier Chocolates uses local ingredients from southern Vermont farmers and fo
 
 Tavernier Chocolates wanted to redesign their ecommerce store and integrate it into their main website. We worked with them to define a structure and layout for the store that would reflect their products accurately and would make the purchasing process seamless for their customers.
 
-Since completing their website design, 10F has continued to work closely with Tavernier Chocolates to improve their website’s features and functionality. 
+Since completing their website design, 10F Design has continued to work closely with Tavernier Chocolates to improve their website’s features and functionality. 
 
 {% include portfolio-screenshot.html image="/assets/images/tavernier-screenshot-2.png" %}
 
 ### Project Features
-- Clean design
-- WooCommerce Integration 
-- Custom homepage sliders
+- Clean, modern design that uses photography to showcase products
+- WooCommerce integration
+- Custom WooCommerce features including shipping notices
+- Backend reports powered by custom SQL queries
+- Hosted, updated, and maintained through our [managed Wordpress hosting](#)
 
 {% include portfolio-screenshot.html image="/assets/images/tavernier-screenshot-3.png" %}
