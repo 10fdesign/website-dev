@@ -42,14 +42,14 @@ layout: default
 				  <div class="card green-card"></div>
 				  <div class="card"></div>
 				  <div class="card">{% picture {{ page.images[ 2 ] }} %}</div>
-				  <div class="card">{% picture {{ page.images[ 0 ] }} %}</div>
+				  <div class="card">"{% picture {{ page.images[ 3 ] }} %}</div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card light-green-card"></div>
-				  <div class="card">{% picture {{ page.images[ 1 ] }} %}</div>
+				  <div class="card">{% picture {{ page.images[ 4 ] }} %}</div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
@@ -80,7 +80,7 @@ layout: default
 			</div>
 		</div>
 		<div class="row align-items-stretch mb-3">
-			{% for post in site.categories.portfolio %}
+			{% for post in site.categories.portfolio limit:3 %}
 				<div class="col-md-4 tenf-portfolio-tile">
 					<a href="{{ post.url }}" class="tenf-portfolio-tile-content">
 						<div class="tenf-portfolio-tile-image">
@@ -93,7 +93,7 @@ layout: default
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<a href="/portfolio" class="tenf-button">View All Our Work <i class="icofont-plus"></i></a>
+				<a href="/portfolio" class="tenf-button">View All Our Work <i class="tenf-icon-plus"></i></a>
 			</div>
 		</div>
 	</div>
@@ -118,13 +118,13 @@ layout: default
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-6">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
 					<div class="testimonials-slider">						
 						{% for testimonial in site.categories.testimonials %}
 						<div class="testimonial-slide">
 							<div class="testimonial">
-								<i class="icofont-quote-left"></i>
+								<i class="tenf-quote-left"></i>
 								<div class="testimonial-content">
 									{{ testimonial.content }}
 									<div class="testimonial-author">

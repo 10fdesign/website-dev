@@ -1,4 +1,4 @@
-<div class="post-image mb-4 mt-4">
+<div class="post-image mb-4 mt-4 {{ include.class }}">
 	{% picture {{ include.image }} %}
 	{% if include.caption %}<div class="tenf-caption">{{ include.caption }}</div>{% endif %}
 </div>

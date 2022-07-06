@@ -6,4 +6,6 @@ title: Our Portfolio
 layout: archive-portfolio
 ---
 
-Look at this sick portfolio.
+Great design is hard to describe, but **you know it when you see it**. By taking a look at our portfolio of website projects, you’ll begin to get a sense of our design capabilities and aesthetic. Additionally, we’ve outlined some of the unique challenges and features of our past website projects. And of course, with every website that we build, the satisfaction of our clients is our ultimate priority and driving force. 
+
+We’ve worked so hard to make our clients happy, and we're so excited to share their websites and their stories with you.

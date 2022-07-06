@@ -4,7 +4,7 @@
 
 title: 10F Design - We Build Websites!
 layout: home
-images: ["/assets/images/grafton.jpg", "/assets/images/stowe.jpg", "/assets/images/tavernier.jpg"]
+images: ["/assets/images/grafton.jpg", "/assets/images/stowe.jpg", "/assets/images/tavernier.jpg", "/assets/images/visit-vermont-tile.jpg", "/assets/images/wrccvt-tile.jpg"]
 testimonals_header: "Professional, custom websites built to your specifications"
 ---
 
