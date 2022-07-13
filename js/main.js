@@ -31,4 +31,28 @@ $(document).ready( function () {
     $("body").removeClass("menu-open");
     $("body").enableScroll();
   });
+
+  initializeSlider();
 });
+
+function initializeSlider() {
+  var index = 0;
+  var last_time = new Date();
+  var cards = $('.card:not(.hidden-card)');
+  for ( let i = 0; i < cards.length; i++ ) {
+    index += 1;
+    $(cards[i]).delay( index * 150 ).queue( function () {
+      $(this).addClass( "card-visible" );
+      var new_time = new Date();
+      last_time = new_time;
+    });
+  }
+  $(".testimonials-slider").slick({
+    fade: false,
+    autoplay: true,
+    dots: true,
+    speed: 200,
+    autoplaySpeed: 5000,
+    cssEase: 'linear',
+  });
+}
