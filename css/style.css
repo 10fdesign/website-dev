@@ -1117,3 +1117,9 @@ i.tenf-quote-left:before {
   font-weight: bold;
   color: #404040;
 }
+
+.tenf-portfolio-picture img {
+  box-shadow: 0 0 20px rgb(0 0 0 / 0.2);
+  width: 100%;
+  margin: 3em 0;
+}
