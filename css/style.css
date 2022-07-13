@@ -176,6 +176,8 @@ nav {
   text-decoration: none;
   color: var(--dark-gray);
   margin: 0.2em 0;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .menu-items a:hover, .menu-items a:focus, .menu-items a:active {
@@ -270,6 +272,10 @@ body.scrolled .menu label.menu-toggle {
   left: -4px;
   height: calc(100% + 8px);
   z-index: 10;
+}
+
+#header a.logo:hover {
+  opacity: 1;
 }
 
 #header a.logo:hover .logo-overlay {
