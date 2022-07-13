@@ -26,6 +26,6 @@ Since completing their website design, 10F Design has continued to work closely 
 - WooCommerce integration
 - Custom WooCommerce features including shipping notices
 - Backend reports powered by custom SQL queries
-- Hosted, updated, and maintained through our [managed Wordpress hosting](#)
+- Hosted, updated, and maintained through our [managed Wordpress hosting](/managed-hosting)
 
 {% include portfolio-screenshot.html image="/assets/images/tavernier-screenshot-3.png" %}
