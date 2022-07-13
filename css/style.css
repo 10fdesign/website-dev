@@ -1134,3 +1134,18 @@ i.tenf-quote-left:before {
   width: 100%;
   margin: 3em 0;
 }
+
+.next-prev-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.next-prev-nav > .next:after {
+  content: '››';
+  margin-left: 0.5em;
+}
+
+.next-prev-nav > .prev:before {
+  content: '‹‹';
+  margin-right: 0.5em;
+}

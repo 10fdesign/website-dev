@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Backroads Granola
 date: 2022-06-29 10:16:31 -0400
 categories: portfolio

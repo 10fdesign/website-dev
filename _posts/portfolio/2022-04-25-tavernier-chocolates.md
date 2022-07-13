@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Tavernier Chocolates
 date: 2022-04-26 12:16:31 -0400
 categories: portfolio

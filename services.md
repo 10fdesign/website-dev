@@ -1,6 +1,6 @@
 ---
 title: "Our Services"
-layout: "post"
+layout: "page"
 ---
 
 Our team of web developers and designers excel at creating websites that meet our client’s needs and delight their customers. We specialize in mobile-first design, streamlined user experiences, and custom functionality. 

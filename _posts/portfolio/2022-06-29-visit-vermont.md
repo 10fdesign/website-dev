@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Visit Vermont
 date: 2022-06-29 11:15:31 -0400
 categories: portfolio

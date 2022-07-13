@@ -1,6 +1,6 @@
 ---
 title: "Managed Hosting"
-layout: "post"
+layout: "page"
 ---
 
 ### Hosting

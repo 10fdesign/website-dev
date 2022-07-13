@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Wolf Kahn Foundation
 date: 2022-06-29 11:16:31 -0400
 categories: portfolio
