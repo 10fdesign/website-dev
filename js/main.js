@@ -14,7 +14,7 @@ $.fn.enableScroll = function() {
 $(document).ready( function () {
   $(window).scroll( function (e) {
     if (!$("body").hasClass("menu-open")) {
-      if ( $(this).scrollTop() > 100 ) {
+      if ( $(this).scrollTop() > 40 ) {
         $("body").addClass("scrolled");
       } else {
         $("body").removeClass("scrolled");
