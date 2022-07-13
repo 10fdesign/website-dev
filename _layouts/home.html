@@ -30,9 +30,9 @@ layout: default
 				  
 				  <div class="card hidden-card"></div>
 				  <div class="card double-card"></div>
-				  <div class="card double-card"><img src="{% picture {{ page.images[ 0 ] }} %}" alt=""></div>
+				  <div class="card double-card">{% picture {{ page.images[ 0 ] }} %}</div>
 				  <div class="card light-gray-card"></div>
-				  <div class="card"><img src="{% picture {{ page.images[ 1 ] }} %}" alt=""></div>
+				  <div class="card">{% picture {{ page.images[ 1 ] }} %}</div>
 				  
 				  <div class="card"></div>
 				  <div class="card light-gray-card"></div>
@@ -41,19 +41,18 @@ layout: default
 				  <div class="card hidden-card"></div>
 				  <div class="card green-card"></div>
 				  <div class="card"></div>
-				  <div class="card"><img src="{% picture {{ page.images[ 2 ] }} %}" alt=""></div>
-				  <div class="card"><img src="{% picture {{ page.images[ 3 ] }} %}" alt=""></div>
+				  <div class="card">{% picture {{ page.images[ 2 ] }} %}</div>
+				  <div class="card">{% picture {{ page.images[ 3 ] }} %}</div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card light-green-card"></div>
-				  <div class="card"><img src="{% picture {{ page.images[ 4 ] }} %}" alt=""></div>
+				  <div class="card">{% picture {{ page.images[ 4 ] }} %}</div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
 				  <div class="card hidden-card"></div>
-
 				</div>
 			  <h1 class="homepage-header-title">We Build Websites</h1>
 			</div>
@@ -61,7 +60,7 @@ layout: default
 	</section>
 </div>	
 
-<section class="homepage-section site-description">
+<section class="homepage-section site-description mt-xxl-5 mt-xl-0 mt-sm-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2"></div>
@@ -125,7 +124,6 @@ layout: default
 						{% for testimonial in site.categories.testimonials %}
 						<div class="testimonial-slide">
 							<div class="testimonial">
-								<i class="tenf-quote-left"></i>
 								<div class="testimonial-content">
 									{{ testimonial.content }}
 									<div class="testimonial-author">
@@ -152,27 +150,9 @@ layout: default
 
 </section>
 
-{% assign post = site.categories.posts.last %}
+{% if false %}
+{% assign post = site.categories.posts.first %}
 <section class="homepage-section homepage-section-blog">
 	{% include post-tile.html post=post %}
 </section>
-
-<script>
-	$( document ).ready( function ($) {
-		var index = 0;
-		var last_time = new Date();
-		var cards = $('.card:not(.hidden-card)');
-		for ( let i = 0; i < cards.length; i++ ) {
-			index += 1;
-			$(cards[i]).delay( index * 150 ).queue( function () {
-				$(this).addClass( "card-visible" );
-				var new_time = new Date();
-				last_time = new_time;
-			});
-		}
-		$(".testimonials-slider").slick({
-			fade: true,
-			dots: true
-		});
-	});
-</script>
+{% endif %}
