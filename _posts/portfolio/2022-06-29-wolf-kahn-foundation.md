@@ -5,6 +5,7 @@ date: 2022-06-29 11:16:31 -0400
 categories: portfolio
 subtitle: Design and Development
 tile-photo: /assets/images/wolf-kahn-tile.jpg
+tile-photo-credit: ©2022 Wolf Kahn Foundation / Artists Rights Society (ARS), New York.
 link: "https://wolfkahnfoundation.org/"
 ---
 

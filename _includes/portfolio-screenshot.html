@@ -1,1 +1,5 @@
-<div class="tenf-portfolio-screenshot {{ include.class }}" style="background-image: url(' {{ include.image  }} ');"></div>
+<div class="tenf-portfolio-screenshot {{ include.class }}" style="background-image: url(' {{ include.image  }} ');">
+	{% if include.credit %}
+	<div class="tenf-caption">{{ include.credit }}</div>
+	{% endif %}
+</div>
