@@ -416,8 +416,7 @@ h1.homepage-header-title {
   padding-bottom: 100%;
   position: relative;
 	opacity: 0;
-	transition: all 1.0s;
-  transition-timing-function: ease-out;	
+	transition: all 200ms;
   display: block;
   border: none;
   border-radius: 0;
@@ -1234,3 +1233,36 @@ a.product-link {
     padding-bottom: 0;
 }
 
+.logo-cloud {
+    background: var(--blue);
+    color: white;
+    padding: 2em 0;
+}
+
+.logo-cloud h2 {
+    margin: 0 0 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 180px;
+    transition: transform 200ms;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0.25em 1em;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
