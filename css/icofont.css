@@ -58,6 +58,11 @@ url("./fonts/icofont.woff") format("woff");
   content: "\efc2";
 }
 
+.icofont-slightly-smile:before
+{
+  content: "\eb03";
+}
+
 .icofont-xs
 {
   font-size: .5em;
@@ -267,10 +272,10 @@ url("./fonts/icofont.woff") format("woff");
 }
 
 :root .icofont-rotate-90,
-	:root .icofont-rotate-180,
-	:root .icofont-rotate-270,
-	:root .icofont-flip-horizontal,
-	:root .icofont-flip-vertical
+  :root .icofont-rotate-180,
+  :root .icofont-rotate-270,
+  :root .icofont-flip-horizontal,
+  :root .icofont-flip-vertical
 {
   -webkit-filter: none;
   filter: none;
@@ -295,7 +300,7 @@ url("./fonts/icofont.woff") format("woff");
 }
 
 .sr-only-focusable:active,
-	.sr-only-focusable:focus
+  .sr-only-focusable:focus
 {
   clip: auto;
   height: auto;
@@ -304,4 +309,4 @@ url("./fonts/icofont.woff") format("woff");
   position: static;
   width: auto;
 }
-	
+  

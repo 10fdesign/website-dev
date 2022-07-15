@@ -1,22 +1,58 @@
 ---
-title: "Managed Hosting"
+title: "Managed Wordpress Hosting"
 layout: "page"
 ---
 
-### Hosting
+Hosting your own site can be scary. Wordpress core and plugins are constantly updating independently of each other, and since plugins are made by third-party developers, you never know if it's safe to click that tempting "Update All" button. If something goes wrong, you're making frantic phone calls to your developer at best, or at worst staring at a blank white page with no clue how to fix it.
 
-We offer a few different options for ongoing technical support. If we go with Wordpress, hosting is $35/mo on WPEngine, the premier Wordpress host. For $99/mo (hosting included), we will also perform monthly plugin and Wordpress core updates to keep your site up to date and secure. If you stay on your existing hosting, there will obviously be no additional charge to you.
+Let us take that burden off your shoulders. Our team of elite Wordpress developers will update your site monthly and fix any compatibility problems that might arise. Our automated backups remove any risk from the equation.
 
-### Ongoing Technical Support
+If you're hosted elsewhere, we'll migrate your site to our account absolutely free of charge!
 
-We offer monthly technical support plans at our regular $95/hr rate. For example, a 2 hour monthly plan buys you 2 hours of tech support for $190 on retainer. These monthly plans (billed in advance in 12 month chunks) let us build free time into our schedule so that we can guarantee that we have capacity for your requests.
+<div class="row mt-5 mb-5">
+	<div class="col-sm-4">
+		<div class="product-tile">
+			<h1 class="product-title">Maintenance</h1>
+			<h2 class="product-cost">$99/mo</h2>
+			<a href="/contact-us" class="product-link">Get Maintenance</a>
+			<p>Get peace of mind and let us handle the maintenance.</p>
+			<ul>
+				<li>Automatic daily backups</li>
+				<li>Advanced hosting with WPEngine</li>
+				<li>Monthly plugin and core updates</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="product-tile product-tile-recommended">
+			<h4 class="product-notice">Best Value</h4>
+			<h1 class="product-title">Support</h1>
+			<h2 class="product-cost">$199/mo</h2>
+			<a href="/contact-us" class="product-link">Get Support</a>
+			<p>Have a support person on call for the important stuff.</p>
+			<ul>
+				<li>Everything in <strong>Maintenance</strong></li>
+				<li>Uptime monitoring</li>
+				<li>One hour of developer support for tweaks and fixes</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="product-tile">
+			<h1 class="product-title">Beyond</h1>
+			<h2 class="product-cost">$299+/mo</h2>
+			<a href="/contact-us" class="product-link">Get Beyond</a>
+			<p>Have a support person on call for the important stuff.</p>
+			<ul>
+				<li>Everything in <strong>Maintenance</strong> and <strong>Support</strong></li>
+				<li>A dedicated account manager</li>
+				<li>Multiple hours of developer support for tweaks, fixes, and larger improvements</li>
+			</ul>
+		</div>
+	</div>
+</div>
 
-If you don’t go for a monthly support plan, we offer emergency tech support on an as-needed basis, but at a higher $135/hr rate.
-
-Yearly support contracts with hourly monthly support built in:
-- 2hrs ($95/hr) - +$190 per month billed annually. ($2.280)
-- 4hrs ($95/hr) - +$380 per month billed annually. ($4,560)
-- 8hrs ($95/hr) - +$760 per month billed annually. ($9,120)
-
-Emergency support without monthly support plan:
-- $135 per hour
+<div class="logo-cloud">
+	<h2>Take A Look At Some of Our <i class="icofont-slightly-smile"></i> Clients</h2>
+	
+</div>
