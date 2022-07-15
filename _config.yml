@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   or just update your image, our nimble team of developers and designers will work with you to 
   make your vision a reality.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://10fdesign.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: "/:categories/:title"
@@ -39,6 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
