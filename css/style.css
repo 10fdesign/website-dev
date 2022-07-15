@@ -819,6 +819,7 @@ a.tenf-portfolio-tile-content:hover {
     /* background: linear-gradient(to top right, #ebebeb, #ebebeb 20%, #ebebeb); */
     color: black;
     text-decoration: none;
+    opacity: 1;
 }
 
 .tenf-portfolio-tile-image {
