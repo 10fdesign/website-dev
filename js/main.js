@@ -54,5 +54,7 @@ function initializeSlider() {
     speed: 200,
     autoplaySpeed: 5000,
     cssEase: 'linear',
+    prevArrow: '<button type="button" class="slick-prev"><i class="icofont-simple-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="icofont-simple-right"></i></button>',
   });
 }
