@@ -43,7 +43,7 @@ layout: "managed-hosting"
 						<h1 class="product-title">Beyond</h1>
 						<h2 class="product-cost">$299+/mo</h2>
 						<a href="/contact-us" class="product-link">Get Beyond</a>
-						<p>Have a support person on call for the important stuff.</p>
+						<p>For larger businesses who want to get the most out of their website.</p>
 						<ul>
 							<li>Everything in <strong>Maintenance</strong> and <strong>Support</strong></li>
 							<li>A dedicated account manager</li>
