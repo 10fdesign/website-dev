@@ -1,84 +1,56 @@
 - name: Back Roads Granola
-  link: https://backroadsgranola.com/
   image: /assets/images/client_logos/backroads.png
 - name: Families First
-  link: 
   image: /assets/images/client_logos/families_first_all_white.png
 - name: Brattleboro Chamber
-  link: 
   image: /assets/images/client_logos/brattleboro_chamber.png
 - name: WRCC
-  link: 
   image: /assets/images/client_logos/wrcc.png
 - name: Stevens & Associates
-  link: 
   image: /assets/images/client_logos/stevens-assoc.png
 - name: Lake Bomoseen Lodge
-  link: 
   image: /assets/images/client_logos/lake_bomoseen.png
 - name: M&S Development
-  link: 
   image: /assets/images/client_logos/ms-develop.png
 - name: Vermont Chamber of Commerce
-  link: 
   image: /assets/images/client_logos/vermontvacation.png
 - name: Norwich Inn
-  link: 
   image: /assets/images/client_logos/norwich.png
 - name: Sebasco Resort
-  link: 
   image: /assets/images/client_logos/sebasco.png
 - name: Dunes on the Waterfront
-  link: 
-  image: 
+  image: /assets/images/client_logos/dunes.png
 - name: Grafton Inn
-  link: 
-  image: 
+  image: /assets/images/client_logos/grafton.png
 - name: Inn Partners
-  link: 
-  image: 
+  image: /assets/images/client_logos/innpartners.png
 - name: Stowe Area Association
-  link: 
-  image: 
+  image: /assets/images/client_logos/stowe.png
 - name: Educate the Whole Child
-  link: 
-  image: 
+  image: /assets/images/client_logos/etwc.png
 - name: Hilltop Montessori
-  link: 
-  image: 
+  image: /assets/images/client_logos/hilltop.png
 - name: Wolf Kahn Foundation
-  link: 
-  image: 
+  image: /assets/images/client_logos/wolfekahn.png
 - name: Freeman French Freeman
-  link: 
-  image: 
+  image: /assets/images/client_logos/fff.png
 - name: The Moover
-  link: 
   image: 
 - name: Your Average Jo
-  link: 
-  image: 
+  image: /assets/images/client_logos/averagejo.png
 - name: VIP Help Me
-  link: 
-  image: 
+  image: /assets/images/client_logos/vip.png
 - name: Deerfield Chamber of Commerce
-  link: 
-  image: 
+  image: /assets/images/client_logos/deerfield.png
 - name: Vermont Soap
-  link: 
-  image: 
+  image: /assets/images/client_logos/vtsoap.png
 - name: Smuggler's Notch Distillery
-  link: 
-  image: 
+  image: /assets/images/client_logos/smugglersnotch.png
 - name: Mad River Distillery
-  link: 
-  image: 
+  image: /assets/images/client_logos/madriver.png
 - name: Better Wheel
-  link: 
-  image: 
+  image: /assets/images/client_logos/betterwheel.png
 - name: Armor Source
-  link: 
-  image: 
+  image: /assets/images/client_logos/armorsource.png
 - name: Torcon
-  link: 
-  image:  
+  image: /assets/images/client_logos/torcon.png

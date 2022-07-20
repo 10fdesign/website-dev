@@ -177,6 +177,7 @@ nav {
   margin: 0.2em 0;
   font-size: 2rem;
   font-weight: 400;
+  text-align: center;
 }
 
 .menu-items a:hover, .menu-items a:focus, .menu-items a:active {
@@ -422,9 +423,9 @@ h1.homepage-header-title {
   border-radius: 0;
   height: 0;
 }
-.homepage-header-grid .card:not(.hidden-card):hover {
-    opacity: 1;
-    transform: scale(1.1);
+.homepage-header-grid .card.card-visible:hover {
+    opacity: 0.6;
+    transform: scale(1.05);
 }
 .homepage-header-grid .card-visible {
 	opacity: 0.3;

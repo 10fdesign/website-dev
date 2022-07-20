@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://10fdesign.io/sitemap.xml

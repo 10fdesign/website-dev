@@ -23,6 +23,6 @@ The Grafton Inn was looking to update their image to resonate with a more modern
 - Full-screen mobile-first menu
 - eCommerce powered by Gravity Forms
 - Booking engine integration
-- Hosted, updated, and maintained through our [managed Wordpress hosting](#)
+- Hosted, updated, and maintained through our [managed Wordpress hosting](/managed-hosting)
 
 {% include portfolio-screenshot.html image="/assets/images/grafton-screenshot-3.png" %}
