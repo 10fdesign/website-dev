@@ -64,7 +64,7 @@ layout: "managed-hosting"
 					{% for logo in site.data.client_logos %}
 						{% if logo.image %}
 							<div class="logo">
-									{% picture {{ logo.image }} %}
+									{% picture {{ logo.image }} --alt Logo for {{ logo.name }} %}
 							</div>
 						{% endif %}
 					{% endfor %}

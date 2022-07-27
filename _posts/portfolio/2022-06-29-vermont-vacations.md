@@ -6,6 +6,7 @@ categories: portfolio
 subtitle: Design and Development
 tile-photo: /assets/images/vermont-vacations-tile.jpg
 link: "https://plan.vermontvacation.com/"
+tile-photo-alt: "The green mountains of Vermont"
 ---
 
 Tourism is one of the largest industries in Vermont, as the state welcomes over 13 million visitors each year. The State of Vermont Chamber of Commerce’s mission is to promote Vermont’s travel, recreation, cultural and historic attractions, as well as the state’s goods and services, in a manner consistent with the values and traditions of the state for the economic benefit of all Vermonters.

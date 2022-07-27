@@ -6,6 +6,7 @@ categories: portfolio
 subtitle: "Design and Development"
 tile-photo: /assets/images/backroads-tile.jpg
 link: "https://www.backroadsgranola.com/"
+tile-photo-alt: "Back Roads Granola product photos"
 ---
 
 Back Roads Granola is a family-owned organic bakery, located in southern Vermont. They are dedicated to producing the most delicious and healthy granola on the planet using only premium organic, gluten-free ingredients.

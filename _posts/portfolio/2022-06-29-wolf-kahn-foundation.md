@@ -7,6 +7,7 @@ subtitle: Design and Development
 tile-photo: /assets/images/wolf-kahn-tile.jpg
 tile-photo-credit: ©2022 Wolf Kahn Foundation / Artists Rights Society (ARS), New York.
 link: "https://wolfkahnfoundation.org/"
+tile-photo-alt: "Barn Atop a Ridge, 1987, painting by Wolf Kahn"
 ---
 
 The Wolf Kahn Foundation is Brattleboro-based organization dedicated to preserving and promoting the artistic achievements of Wolf Kahn (1927-2020).

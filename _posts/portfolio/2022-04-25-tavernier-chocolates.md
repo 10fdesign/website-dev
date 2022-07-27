@@ -6,6 +6,7 @@ categories: portfolio
 subtitle: "Design and Development"
 tile-photo: /assets/images/tavernier.jpg
 tile-photo-credit: "Photo Credit: Dar Tavernier-Singer"
+tile-photo-alt: "An assortment of chocolates from Tavernier Chocolates"
 link: "https://www.tavernierchocolates.com/"
 ---
 

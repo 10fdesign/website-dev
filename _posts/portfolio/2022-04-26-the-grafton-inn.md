@@ -6,6 +6,7 @@ categories: portfolio
 subtitle: Design and Development
 tile-photo: /assets/images/grafton.jpg
 link: "https://www.graftoninnvermont.com/"
+tile-photo-alt: "Wine and cheese in a Grafton Inn hotel room"
 ---
 
 Founded in 1801, the historic Grafton Inn is a quintessential southern Vermont country inn. The inn features 42 individually appointed rooms, including seven suites and four guest houses. On-site dining is provided in one of two unique spaces; the Phelps Barn Pub which was once the Inn's carriage house, and the 1801 Tavern located within the Main Inn.

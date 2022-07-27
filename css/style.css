@@ -860,7 +860,11 @@ a.tenf-portfolio-tile-content:hover {
 .tenf-portfolio-tile h1 {
     margin: 0.5em 0 0;
     line-height: 1;
-    font-size: 1.75rem;
+    font-size: 1.75em;
+}
+
+.tenf-portfolio-tile-home.tenf-portfolio-tile {
+    font-size: 0.9rem;
 }
 
 .tenf-portfolio-tile h2 {
@@ -980,6 +984,8 @@ a.logo {
     left: 2rem;
     z-index: 10;
     color: white;
+    background: rgba(255,255,255,0.5);
+    padding: 2rem;
 }
 
 .content-404 > * {
@@ -988,6 +994,10 @@ a.logo {
 
 .content-404 > *:last-child {
     margin-bottom: 0;
+}
+
+.content-404 p {
+  color: white;
 }
 
 p {

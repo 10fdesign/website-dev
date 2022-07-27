@@ -6,6 +6,7 @@ categories: portfolio
 subtitle: Design and Development
 tile-photo: /assets/images/visit-vermont-tile.jpg
 link: "https://www.visitvermont.com/"
+tile-photo-alt: "Kayaking a Vermont lake in autumn"
 ---
 
 Visitvermont.com is the official website of the Southern Vermont Deerfield Valley Chamber. They’re aim is to promote the authentic New England hospitality experiences, a relaxed lifestyle, and abundant outdoor adventures that can be found in southern Vermont. 
