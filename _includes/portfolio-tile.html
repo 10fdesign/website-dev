@@ -5,7 +5,7 @@
 			{% if include.location != 'home' and post.tile-photo-credit %}<div class="tenf-caption">{{ post.tile-photo-credit }}</div>{% endif %}
 			}
 		</div>
-		<h1 class="tenf-portfolio-tile-title">{{ post.title }}</h1>
-		{% if include.location != 'home' and post.subtitle %}<h2>{{ post.subtitle }}</h2>{% endif %}
+		<h2 class="tenf-portfolio-tile-title">{{ post.content-title }}</h2>
+		{% if include.location != 'home' and post.subtitle %}<h3>{{ post.subtitle }}</h3>{% endif %}
 	</a>
 </div>

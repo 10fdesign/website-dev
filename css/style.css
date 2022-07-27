@@ -857,7 +857,8 @@ a.tenf-portfolio-tile-content:hover {
     padding: 0.125em 0.5em;
 }
 
-.tenf-portfolio-tile h1 {
+.tenf-portfolio-tile h2 { 
+    font-family: var(--serif), serif;
     margin: 0.5em 0 0;
     line-height: 1;
     font-size: 1.75em;
@@ -867,7 +868,7 @@ a.tenf-portfolio-tile-content:hover {
     font-size: 0.9rem;
 }
 
-.tenf-portfolio-tile h2 {
+.tenf-portfolio-tile h3 {
     margin: 0.5em 0 0;
     line-height: 1;
     font-family: var(--sans-serif), sans-serif;

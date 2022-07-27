@@ -1,6 +1,8 @@
 ---
 layout: portfolio
-title: Backroads Granola
+title: "Back Roads Granola &mdash; Our Portfolio &mdash; 10F Design"
+description: "We worked with Back Roads over many years to build their new websites and to make ongoing upgrades and improvements to stay current."
+content-title: Back Roads Granola
 date: 2022-06-29 10:16:31 -0400
 categories: portfolio
 subtitle: "Design and Development"
@@ -13,7 +15,7 @@ Back Roads Granola is a family-owned organic bakery, located in southern Vermont
 
 {% include portfolio-screenshot.html image="/assets/images/backroads-screenshot-1.png" %}
 
-We’ve worked with them over years to make upgrades and improvements to match their business strategy.
+We’ve worked with them over many years to make upgrades and improvements to match their business strategy.
 
 ### Project Features
 - High-traffic Woocommerce site

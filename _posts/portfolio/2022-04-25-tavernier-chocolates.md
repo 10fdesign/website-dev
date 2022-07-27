@@ -1,6 +1,8 @@
 ---
 layout: portfolio
-title: Tavernier Chocolates
+title: "Tavernier Chocolates &mdash; Our Portfolio &mdash; 10F Design"
+description: "Tavernier Chocolates wanted to redesign their ecommerce store. We worked with them to define a structure and layout that would reflect their business."
+content-title: Tavernier Chocolates
 date: 2022-04-26 12:16:31 -0400
 categories: portfolio
 subtitle: "Design and Development"

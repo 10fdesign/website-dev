@@ -2,7 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: 10F Design | Contact Us
+title:  "Contact Us &mdash; 10F Design"
+description: "Every great project starts with a conversation. Whether you're ready to transform your business today, or just have a few questions, let's talk!"
 layout: contact
 ---
 

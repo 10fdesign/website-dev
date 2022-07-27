@@ -1,9 +1,11 @@
 ---
 layout: portfolio
-title: Wolf Kahn Foundation
+title: "Wolf Kahn Foundation &mdash; Our Portfolio &mdash; 10F Design"
+content-title: Wolf Kahn Foundation
 date: 2022-06-29 11:16:31 -0400
 categories: portfolio
 subtitle: Design and Development
+description: "The Wolf Kahn Foundation wanted a website that would highlight aspects of the artist’s work. We collaborated closely with the client to develop the website’s aesthetics."
 tile-photo: /assets/images/wolf-kahn-tile.jpg
 tile-photo-credit: ©2022 Wolf Kahn Foundation / Artists Rights Society (ARS), New York.
 link: "https://wolfkahnfoundation.org/"

@@ -1,6 +1,8 @@
 ---
 layout: portfolio
-title: Vermont Vacation
+title: "Vermont Chamber of Commerce &mdash; Our Portfolio &mdash; 10F Design"
+description: "We built the Vermont Chamber of Commerce a website that would allow visitors to easily research and explore businesses, including a custom user portal."
+content-title: Vermont Chamber of Commerce
 date: 2022-06-29 11:15:31 -0400
 categories: portfolio
 subtitle: Design and Development

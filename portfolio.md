@@ -2,9 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: Our Portfolio
+title: "Our Portfolio &mdash; 10F Design"
+content-title: "Our Portfolio"
 layout: archive-portfolio
-description: Great design is hard to describe, but you know it when you see it. By taking a look at our portfolio of website projects, you’ll begin to get a sense of our design capabilities and aesthetic.
+description: "Great design is hard to describe, but you know it when you see it. Take your business to the next level with a hand-designed website built from scratch."
 ---
 
 Great design is hard to describe, but **you know it when you see it**. By taking a look at our portfolio of website projects, you’ll begin to get a sense of our design capabilities and aesthetic. Additionally, we’ve outlined some of the unique challenges and features of our past website projects. And of course, with every website that we build, the satisfaction of our clients is our ultimate priority and driving force. 

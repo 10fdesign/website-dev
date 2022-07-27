@@ -1,6 +1,8 @@
 ---
 layout: portfolio
-title: The Grafton Inn
+title: "The Grafton Inn &mdash; Our Portfolio &mdash; 10F Design"
+description: "The Grafton Inn was looking to resonate with a modern audience while maintaining their charm. We used color, photography, and animation to bring their brand to life."
+content-title: The Grafton Inn
 date: 2022-04-26 12:16:31 -0400
 categories: portfolio
 subtitle: Design and Development
