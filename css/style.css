@@ -1268,7 +1268,6 @@ a.product-link {
 
 .logo {
     display: inline-block;
-    margin: 0.25em 1em;
 }
 
 .logo img:hover {
@@ -1278,3 +1277,12 @@ a.product-link {
 h1 {
   margin-bottom: 1rem;
 }
+
+.archive-post nav {
+  background: var(--green);
+}
+
+.archive-post nav .menu-toggle {
+  color: white;
+}
+
